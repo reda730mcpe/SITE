@@ -1,0 +1,52 @@
+/* style de la page  */
+body{
+  font-family: Arial;
+  background:#f4f4f4;
+  display:flex;
+  justify-content:center;
+  height:98.31vh;
+  align-items:center;
+  text-align:center;
+  background:linear-gradient(rgba(27, 149, 158, 0.4),rgba(0, 0, 0, 0.4))
+}
+/* grille du planning */
+.planning{
+  display:grid;
+  grid-template-columns: 150px repeat(5,120px);
+  gap:5px;
+  margin-top:40px;
+}
+
+.case,.caser{
+  background:white;
+  padding:15px;
+  text-align:center;
+  border-radius:10px;
+  cursor:pointer;
+  transition:0.2s;
+}
+
+  .case:hover{
+    background:#d6f5d6;
+}
+  .caser:hover{
+    background:#fa9090;
+}
+/* jour de la semaine et heure */
+.header{
+  font-weight:bold;
+  background:#2c7a7b;
+  color:white;
+}
+
+a.case,a.caser{
+  text-decoration:none;
+  color:black;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+/* bouton retour */
+.btn{
+ text-decoration:none;
+}

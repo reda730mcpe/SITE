@@ -1,0 +1,129 @@
+/* Selction tous */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+/* couleur de fond de la page */
+body{
+background:#f8f8f8;
+}
+
+/* NAVBAR */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px;
+background:#2c7a7b;
+color:white;
+}
+/* taille du logo */
+
+
+.nav-links{
+list-style:none;
+display:flex;
+gap:20px;
+}
+
+.nav-links a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+/* description */
+
+.description{
+height:80vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(rgba(0,0,0,0.4),rgba(0, 0, 0, 0.4)),url("https://img.freepik.com/premium-photo/detail-benefits-massage-therapy-relaxation-muscle-tension-relief_1247965-27369.jpg");
+background-size:cover;
+color:white;
+}
+
+
+
+.btn{
+margin-top:20px;
+padding:12px 25px;
+background:#2c7a7b;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+/* SERVICES */
+
+.services{
+padding:60px 20px;
+text-align:center;
+}
+/* parametre de la grille des services */
+.services-grid{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-top:30px;
+flex-wrap:wrap;
+}
+/* parametre de la carte des services */
+.card{
+background:white;
+padding:30px;
+width:250px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+/* parametre de l'icone */
+.card i{
+font-size:40px;
+color:#2c7a7b;
+margin-bottom:10px;
+}
+/* animation quand on passe sur la case */
+.card:hover{
+transform:translateY(-10px);
+transition:0.3s;
+}
+
+
+
+.propos{
+padding:60px;
+text-align:center;
+background:#edf2f7;
+}
+
+/* CONTACT */
+
+.contact{
+padding:60px;
+text-align:center;
+}
+/* parametre du texte */
+.coordonnees p{
+margin:10px;
+font-size:18px;
+}
+/* parametre de l'icone */
+.coordonnees i{
+color:#2c7a7b;
+margin-right:8px;
+}
+
+
+ /* pied de page  */
+footer{
+background:#2c7a7b;
+color:white;
+text-align:center;
+padding:20px;
+}

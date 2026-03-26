@@ -1,0 +1,46 @@
+/* style général */
+body{
+  font-family:Arial;
+  margin:0;
+  text-align:center;
+  background:linear-gradient(rgba(27, 149, 158, 0.4),rgba(0, 0, 0, 0.4));
+  min-height:100vh;
+  padding-top:80px;
+}
+
+/* titre */
+h1{
+  color:black;
+}
+
+/* boite des avis */
+.avis{
+  background:rgb(231, 231, 231);
+  width:350px;
+  margin:20px auto;
+  padding:25px;
+  border-radius:12px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* étoiles */
+.etoile{
+  color:gold;
+  font-size:20px;
+}
+
+/* bouton */
+.btn{
+  display:inline-block;
+  margin-top:30px;
+  padding:12px 25px;
+  background:#2c7a7b;
+  color:white;
+  text-decoration:none;
+  border-radius:5px;
+  transition:0.2s;
+}
+
+.btn:hover{
+  background:#1f5d5e;
+}
